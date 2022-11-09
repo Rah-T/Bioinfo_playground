@@ -1,5 +1,4 @@
-'''Rahul Asok Tiwari
-BIM-2021-28
+
 
 
 Exercise
