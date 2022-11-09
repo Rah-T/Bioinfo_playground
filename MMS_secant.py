@@ -1,8 +1,5 @@
 '''
-Rahul Asok Tiwari
-BIM-2021-28
 
-Practical 8
 1. Write a program to find the root ( use termination criteria abs(f(x0)) = 0) of the following equations using Secant method. 
 x^2-4x- 10=0
 Interval points will be user defined, the output should print the root and number of iterations
