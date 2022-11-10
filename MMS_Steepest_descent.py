@@ -1,6 +1,4 @@
 '''
-Rahul Asok Tiwari
-BIM-2021-28
 
 1. Write a program to find the minima of the following equations using Steepest Descent Method. 
 x^2-4x- 10=0
