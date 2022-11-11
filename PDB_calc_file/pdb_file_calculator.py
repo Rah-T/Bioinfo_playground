@@ -1,10 +1,6 @@
-#Created by- Rahul Ashok Tiwari 
-#BIM-2021-28  Msc-2 Bioinformatics 
-#MMS Assignment 5
 
-import time
 
-start = time.time()
+
 import pandas as pd 
 import re
 import math
@@ -169,6 +165,8 @@ for i in range(len(bonds.atom1)):
 dh_ang_df=pd.DataFrame({"Atom1":v1,"Atom2":v2,"Atom3":v3,"Atom4":v4,"Dihedral_Angles":ang_dh})
 
 dfs = [df,bonds,ang_df,dh_ang_df]
+f.close()
+k.close()
 y=str(input("Do you want to export this as an .csv file- Type [Y/N]="))
 # y="Y"
 if y=="Y":
@@ -180,7 +178,5 @@ if y=="Y":
             f.write("\n")
 else:
     print("OK user")
-end = time.time()
-print('\n' + '"The time of execution of above program is :',
-      (end - start) * 10 ** 3, 'ms"')
+
                
